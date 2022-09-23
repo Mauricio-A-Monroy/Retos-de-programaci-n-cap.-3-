@@ -1,12 +1,12 @@
 #Función marble_exp():
 #Entradas:
 #6
-#F F F F F F
-#F F F F F F
-#F T F F F T
-#F F F T F F
-#F F T F F F
-#T F F F T F
+#0 0 0 0 0 0
+#0 0 0 0 0 0
+#0 1 0 0 0 1
+#0 0 0 1 0 0
+#0 0 1 0 0 0
+#1 0 0 0 1 0
 #5 5 0 2 1 15
 #1
 #Salida:
