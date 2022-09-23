@@ -142,10 +142,12 @@ def marble_exp_cmpx():
     print(s_state)
 
 #función para graficar con un diagrama de barras que muestre las probabilidades de un vector de estados
-def graf(arr):
+def graf():
+    """El usuario debe incresar las componentes del vector de la siguiente forma: (1,2) (3,4), las cuales representan el vector
+    [1+2i,3+4i], tener en cuenta que el vector debe estar normalizado"""
+    arr = stdin.readline().strip().split()
     counts = {}
     for i in range(1, len(arr) + 1):
-        counts[str(i)] = (arr[i - 1][0]) ** 2 + (arr[i - 1][1]) ** 2
-    plot_histogram(counts)
-    plt.show()
+        counts[str(i)] = (int(arr[i - 1][1])) ** 2 + (int(arr[i - 1][1])) ** 2
+    print(counts)
 
